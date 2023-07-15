@@ -121,20 +121,44 @@ main {
 /* teams section end */
 
 /* facts section start */
-.facts_container{
+.facts_container {
     padding: 0 240px;
 }
+
 .facts_title {
     color: #131313;
     font-size: 45px;
     font-weight: 700;
 }
 
-.facts_des{
+.facts_des {
     width: 500px;
-    margin: -30px 0;
+    /* margin: 30px 0; */
 }
 
+.facts_card_container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.facts_card_container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 40px 30px;
+}
+.facts_card_container .card_stats {
+    font-size: 2.8rem;
+    color: #424242;
+    margin: 10px 0;
+}
+.facts_card_container .card_title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #424242;
+    margin: 10px 0;
+}
 /* facts section end */
 
 
