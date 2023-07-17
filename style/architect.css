@@ -124,9 +124,7 @@ main {
 
 .feature_container {
     display: flex;
-    margin-top: 100px;
-    margin-left: 240px;
-    margin-right: 240px;
+    padding: 0 150px;
     gap: 100px;
     align-items: center;
 }
@@ -154,7 +152,7 @@ main {
 }
 
 .feature_image img{
-    /* width: 100%; */
+    width: 100%;
 }
 .ten_year_badge {
     border-radius: 8px;
@@ -188,7 +186,7 @@ main {
 
 /* facts section start */
 .facts_container {
-    padding: 0 240px;
+    padding: 0 150px;
 }
 
 .facts_title {
@@ -229,7 +227,7 @@ main {
 
 .sponsor {
     text-align: center;
-    padding: 0 240px;
+    padding: 0 150px;
 }
 
 .sponsor_title {
