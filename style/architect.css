@@ -120,6 +120,72 @@ main {
 
 /* teams section end */
 
+/* feature section start */
+
+.feature_container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+    gap: 100px;
+    align-items: center;
+}
+
+.feature_content .feature_title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.feature_content .card {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature_content .card > h4{
+    margin: 0;
+}
+.feature_content .card > p{
+    margin: 0;
+}
+
+.feature_image img{
+    /* width: 100%; */
+}
+.ten_year_badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    padding: 40px 45px;
+    position: relative;
+    bottom: 100px;
+    right: 70px;
+    width: 200px;
+}
+
+.ten_year_badge .badge_title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.ten_year_badge .badge_text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* feature section end */
+
+
+
+
+
 /* facts section start */
 .facts_container {
     padding: 0 240px;
@@ -161,10 +227,11 @@ main {
 
 /* sponsor section start */
 
-.sponsor{
+.sponsor {
     text-align: center;
     padding: 0 240px;
 }
+
 .sponsor_title {
     margin-top: 70px;
     color: #131313;
@@ -172,14 +239,15 @@ main {
     font-weight: 700;
 }
 
-.sponsor_image{
+.sponsor_image {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
     gap: 40px;
 }
-.sponsor_image img{
+
+.sponsor_image img {
     width: 130px;
 }
 
@@ -205,7 +273,8 @@ main {
     }
 
     .nav_bar,
-    .teams_container, .sponsor_image {
+    .teams_container,
+    .sponsor_image {
         flex-direction: column;
     }
 
@@ -255,7 +324,7 @@ main {
         padding: 0px;
     }
 
-    .sponsor{
+    .sponsor {
         padding: 0;
     }
 
@@ -274,7 +343,8 @@ main {
 
     .nav_bar,
     .teams_container,
-    .facts_card_container, .sponsor_image {
+    .facts_card_container,
+    .sponsor_image {
         flex-direction: column;
     }
 
@@ -308,7 +378,7 @@ main {
         padding: 0px;
     }
 
-    .sponsor_image{
+    .sponsor_image {
         padding: 0;
     }
 }
